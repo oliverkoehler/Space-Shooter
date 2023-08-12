@@ -1,12 +1,14 @@
+Label
+CenterContainer
+ColorRect
+AudioStreamPlayer
+VisibleOnScreenNotifier2D
 Timer
 CPUParticles2D
-ColorRect
-Label
 AnimationPlayer
 Sprite2D
 Marker2D
 Node2D
-VisibleOnScreenNotifier2D
 VisibleOnScreenEnabler2D
 CollisionShape2D
 RigidBody2D

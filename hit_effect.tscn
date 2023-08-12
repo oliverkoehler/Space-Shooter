@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://cmxs63fahqown"]
+[gd_scene load_steps=4 format=3 uid="uid://cmxs63fahqown"]
 
 [ext_resource type="Script" path="res://hit_effect.gd" id="1_m16ol"]
+[ext_resource type="AudioStream" uid="uid://bm2upnsemkg5c" path="res://hit_sound.wav" id="2_irl3i"]
 
 [sub_resource type="Gradient" id="Gradient_s8cb2"]
 offsets = PackedFloat32Array(0, 0.708955, 1)
@@ -8,6 +9,10 @@ colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0.940298, 1, 1, 1, 0)
 
 [node name="HitEffect" type="Node2D"]
 script = ExtResource("1_m16ol")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_irl3i")
+autoplay = true
 
 [node name="CPUParticles2D" type="CPUParticles2D" parent="."]
 amount = 6
