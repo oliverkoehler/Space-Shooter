@@ -1,0 +1,13 @@
+res://explosion_effect.tscn
+res://ExplosionCreator.gd
+res://explosion_creator.tscn
+res://ship.tscn
+res://enemy.tscn
+res://world.tscn
+res://laser.tscn
+res://enemy_spawner.tscn
+res://enemy_spawner.gd
+res://world.gd
+res://enemy.gd
+res://hit_effect.tscn
+res://hit_effect.gd
